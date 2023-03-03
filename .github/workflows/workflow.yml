@@ -40,5 +40,4 @@ jobs:
 
       - name: zappa
         run: |
-          zappa init
-          zappa deploy dev
+          zappa update dev
