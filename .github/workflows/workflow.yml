@@ -41,4 +41,6 @@ jobs:
       - name: zappa
         run: |
           pip install zappa
+          pip install python3.8
+          zappa init
           zappa deploy dev
