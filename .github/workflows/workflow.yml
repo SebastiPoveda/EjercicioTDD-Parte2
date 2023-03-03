@@ -40,5 +40,5 @@ jobs:
 
       - name: zappa
         run: |
-          zappa init
+          pip install zappa
           zappa deploy dev
