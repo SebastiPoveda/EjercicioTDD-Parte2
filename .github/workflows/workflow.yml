@@ -40,5 +40,4 @@ jobs:
 
       - name: zappa
         run: |
-          zappa update
           zappa invoke apps.f
