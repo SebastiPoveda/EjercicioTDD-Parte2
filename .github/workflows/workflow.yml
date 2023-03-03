@@ -40,4 +40,5 @@ jobs:
 
       - name: zappa
         run: |
-          zappa update dev
+          zappa deploy
+          zappa invoke apps.py
